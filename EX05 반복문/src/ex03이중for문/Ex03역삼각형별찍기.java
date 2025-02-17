@@ -7,7 +7,7 @@ public class Ex03역삼각형별찍기 {
 			for(int j=4; j>i; j--) {
 				System.out.print(" ");
 			}
-			for(int k=0; k<i+1; k++) {
+			for(int k=0; k<2*i+1; k++) {
 				System.out.print("*");
 			}
 			System.out.println();
