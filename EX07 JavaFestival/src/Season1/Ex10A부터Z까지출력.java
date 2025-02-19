@@ -7,5 +7,4 @@ public class Ex10A부터Z까지출력 {
 			System.out.print((char) i + " ");
 		}
 	}
-
 }
