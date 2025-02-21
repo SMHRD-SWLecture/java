@@ -71,4 +71,11 @@
 		<item key="patterns" value="*"/>
 		<item key="renameSubpackages" value="false"/>
 	</section>
+	<section name="NewEnumCreationWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="252"/>
+		<item key="DIALOG_Y_ORIGIN" value="57"/>
+		<item key="DIALOG_WIDTH" value="586"/>
+		<item key="DIALOG_HEIGHT" value="495"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
 </section>
