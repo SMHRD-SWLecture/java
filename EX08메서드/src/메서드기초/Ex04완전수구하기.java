@@ -9,11 +9,7 @@ public class Ex04완전수구하기 {
 		// 자기자신을 제외한 나머지 약수의 합이 자기 자신과 같다면 완전수
 		// ex)  6 = 1 + 2 + 3 (약수 : 1 2 3 6)
 
-<<<<<<< HEAD
 		Scanner sc = new Scanner(System.in);
-=======
-		Scanner sc = new Scanner(System.in);		
->>>>>>> 3440a4d (02/24 JAVA 수업 - 객체 지향)
 
 		// System.out.print("num1 입력 : ");
 		// int num1 = sc.nextInt();
