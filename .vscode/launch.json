@@ -1,0 +1,785 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ex01자료형",
+            "request": "launch",
+            "mainClass": "ex01기본데이터타입.Ex01자료형",
+            "projectName": "EX02 자료형"
+        },
+        {
+            "type": "java",
+            "name": "Ex02자료형실습",
+            "request": "launch",
+            "mainClass": "ex01기본데이터타입.Ex02자료형실습",
+            "projectName": "EX02 자료형"
+        },
+        {
+            "type": "java",
+            "name": "Ex03붕어빵실습",
+            "request": "launch",
+            "mainClass": "ex01기본데이터타입.Ex03붕어빵실습",
+            "projectName": "EX02 자료형"
+        },
+        {
+            "type": "java",
+            "name": "Ex04자동형변환",
+            "request": "launch",
+            "mainClass": "ex01기본데이터타입.Ex04자동형변환",
+            "projectName": "EX02 자료형"
+        },
+        {
+            "type": "java",
+            "name": "Ex05강제형변환",
+            "request": "launch",
+            "mainClass": "ex01기본데이터타입.Ex05강제형변환",
+            "projectName": "EX02 자료형"
+        },
+        {
+            "type": "java",
+            "name": "Ex01레퍼런스타입",
+            "request": "launch",
+            "mainClass": "ex02레퍼런스데이터타입.Ex01레퍼런스타입",
+            "projectName": "EX02 자료형"
+        },
+        {
+            "type": "java",
+            "name": "Ex01연산자실습",
+            "request": "launch",
+            "mainClass": "ex01산술연산자.Ex01연산자실습",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex02나누기연산자실습",
+            "request": "launch",
+            "mainClass": "ex01산술연산자.Ex02나누기연산자실습",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex03계산기실습",
+            "request": "launch",
+            "mainClass": "ex01산술연산자.Ex03계산기실습",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex01대입연산자",
+            "request": "launch",
+            "mainClass": "ex02대입연산자.Ex01대입연산자",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex01증감연산자",
+            "request": "launch",
+            "mainClass": "ex03증감비교논리연산자.Ex01증감연산자",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex02비교연산자",
+            "request": "launch",
+            "mainClass": "ex03증감비교논리연산자.Ex02비교연산자",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex03논리연산자",
+            "request": "launch",
+            "mainClass": "ex03증감비교논리연산자.Ex03논리연산자",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex01삼항연산자",
+            "request": "launch",
+            "mainClass": "ex04삼항연산자.Ex01삼항연산자",
+            "projectName": "EX03 연산자"
+        },
+        {
+            "type": "java",
+            "name": "Ex01if문",
+            "request": "launch",
+            "mainClass": "ex01단순if문.Ex01if문",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex01나이판별실습",
+            "request": "launch",
+            "mainClass": "ex02다중if문.Ex01나이판별실습",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex02홀짝판별",
+            "request": "launch",
+            "mainClass": "ex02다중if문.Ex02홀짝판별",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex03학점계산기",
+            "request": "launch",
+            "mainClass": "ex02다중if문.Ex03학점계산기",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex01계절판별",
+            "request": "launch",
+            "mainClass": "ex03switch문.Ex01계절판별",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex02Switch문실습",
+            "request": "launch",
+            "mainClass": "ex03switch문.Ex02Switch문실습",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex01자판기프로그램",
+            "request": "launch",
+            "mainClass": "ex04자판기프로그램.Ex01자판기프로그램",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex01시분초구하기",
+            "request": "launch",
+            "mainClass": "ex05추가문제.Ex01시분초구하기",
+            "projectName": "EX04 조건문"
+        },
+        {
+            "type": "java",
+            "name": "Ex01while문기초",
+            "request": "launch",
+            "mainClass": "ex01while문.Ex01while문기초",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex02while문실습1",
+            "request": "launch",
+            "mainClass": "ex01while문.Ex02while문실습1",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex03While문누적결과실습",
+            "request": "launch",
+            "mainClass": "ex01while문.Ex03While문누적결과실습",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex04홀짝판단",
+            "request": "launch",
+            "mainClass": "ex01while문.Ex04홀짝판단",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex05다이어트관리프로그램",
+            "request": "launch",
+            "mainClass": "ex01while문.Ex05다이어트관리프로그램",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex06플러스게임",
+            "request": "launch",
+            "mainClass": "ex01while문.Ex06플러스게임",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex07구구단레벨업",
+            "request": "launch",
+            "mainClass": "ex02for문.Ex07구구단레벨업",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex01별찍기",
+            "request": "launch",
+            "mainClass": "ex03이중for문.Ex01별찍기",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex02공포의별찍기",
+            "request": "launch",
+            "mainClass": "ex03이중for문.Ex02공포의별찍기",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex03역삼각형별찍기",
+            "request": "launch",
+            "mainClass": "ex03이중for문.Ex03역삼각형별찍기",
+            "projectName": "EX05 반복문"
+        },
+        {
+            "type": "java",
+            "name": "Ex01이차원배열기초",
+            "request": "launch",
+            "mainClass": "이차원배열.Ex01이차원배열기초",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex02이차원배열실습1",
+            "request": "launch",
+            "mainClass": "이차원배열.Ex02이차원배열실습1",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex03이차원배열실습2",
+            "request": "launch",
+            "mainClass": "이차원배열.Ex03이차원배열실습2",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex04스네이크예제",
+            "request": "launch",
+            "mainClass": "이차원배열.Ex04스네이크예제",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex01배열기초",
+            "request": "launch",
+            "mainClass": "일차원배열.Ex01배열기초",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex02배열실습",
+            "request": "launch",
+            "mainClass": "일차원배열.Ex02배열실습",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex03배열실습",
+            "request": "launch",
+            "mainClass": "일차원배열.Ex03배열실습",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex04큰수찾기",
+            "request": "launch",
+            "mainClass": "일차원배열.Ex04큰수찾기",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex05점수계산",
+            "request": "launch",
+            "mainClass": "일차원배열.Ex05점수계산",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex06로또추첨",
+            "request": "launch",
+            "mainClass": "일차원배열.Ex06로또추첨",
+            "projectName": "EX06 배열"
+        },
+        {
+            "type": "java",
+            "name": "Ex01다이어트",
+            "request": "launch",
+            "mainClass": "Season1.Ex01다이어트",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex02알바시급계산기",
+            "request": "launch",
+            "mainClass": "Season1.Ex02알바시급계산기",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex03플러스마이너스계산기",
+            "request": "launch",
+            "mainClass": "Season1.Ex03플러스마이너스계산기",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex04거스름돈",
+            "request": "launch",
+            "mainClass": "Season1.Ex04거스름돈",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex05별찍기1",
+            "request": "launch",
+            "mainClass": "Season1.Ex05별찍기1",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex06곱셈플러스더하기",
+            "request": "launch",
+            "mainClass": "Season1.Ex06곱셈플러스더하기",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex07별찍기2",
+            "request": "launch",
+            "mainClass": "Season1.Ex07별찍기2",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex08AB숫자입력",
+            "request": "launch",
+            "mainClass": "Season1.Ex08AB숫자입력",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex09반올림",
+            "request": "launch",
+            "mainClass": "Season1.Ex09반올림",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex10A부터Z까지출력",
+            "request": "launch",
+            "mainClass": "Season1.Ex10A부터Z까지출력",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex11별찍기3",
+            "request": "launch",
+            "mainClass": "Season1.Ex11별찍기3",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex12구구단",
+            "request": "launch",
+            "mainClass": "Season1.Ex12구구단",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex13별찍기4",
+            "request": "launch",
+            "mainClass": "Season1.Ex13별찍기4",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex14덧셈맞추기",
+            "request": "launch",
+            "mainClass": "Season1.Ex14덧셈맞추기",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex01배열기초(1)",
+            "request": "launch",
+            "mainClass": "Season2.Ex01배열기초",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex023의배수출력",
+            "request": "launch",
+            "mainClass": "Season2.Ex023의배수출력",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex03로또추천머신",
+            "request": "launch",
+            "mainClass": "Season2.Ex03로또추천머신",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex04일차원배열거리비교",
+            "request": "launch",
+            "mainClass": "Season2.Ex04일차원배열거리비교",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex05오름차순정렬",
+            "request": "launch",
+            "mainClass": "Season2.Ex05오름차순정렬",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex06배열90도회전",
+            "request": "launch",
+            "mainClass": "Season2.Ex06배열90도회전",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex07작은수만출력",
+            "request": "launch",
+            "mainClass": "Season2.Ex07작은수만출력",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex08세자리수곱셈",
+            "request": "launch",
+            "mainClass": "Season2.Ex08세자리수곱셈",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex09점수계산지",
+            "request": "launch",
+            "mainClass": "Season2.Ex09점수계산지",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex10배열출력1",
+            "request": "launch",
+            "mainClass": "Season2.Ex10배열출력1",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex11배열출력2",
+            "request": "launch",
+            "mainClass": "Season2.Ex11배열출력2",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex01가운데글자구하기",
+            "request": "launch",
+            "mainClass": "Season3.Ex01가운데글자구하기",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex02이진수십진수로변환",
+            "request": "launch",
+            "mainClass": "Season3.Ex02이진수십진수로변환",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex03팩토리얼계산31번",
+            "request": "launch",
+            "mainClass": "Season3.Ex03팩토리얼계산31번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex04대시숫자문제25번",
+            "request": "launch",
+            "mainClass": "Season3.Ex04대시숫자문제25번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex05최종11번",
+            "request": "launch",
+            "mainClass": "Season3.Ex05최종11번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex06최종13번",
+            "request": "launch",
+            "mainClass": "Season3.Ex06최종13번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex07최종15번",
+            "request": "launch",
+            "mainClass": "Season3.Ex07최종15번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex08최종16번",
+            "request": "launch",
+            "mainClass": "Season3.Ex08최종16번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex09보너스3번",
+            "request": "launch",
+            "mainClass": "Season3.Ex09보너스3번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex10최종20번",
+            "request": "launch",
+            "mainClass": "Season3.Ex10최종20번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex11보너스6번",
+            "request": "launch",
+            "mainClass": "Season3.Ex11보너스6번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex12최종30번",
+            "request": "launch",
+            "mainClass": "Season3.Ex12최종30번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex02최종2번",
+            "request": "launch",
+            "mainClass": "디데이.Ex02최종2번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex05최종5번",
+            "request": "launch",
+            "mainClass": "디데이.Ex05최종5번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex06최종6번",
+            "request": "launch",
+            "mainClass": "디데이.Ex06최종6번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex07최종7번",
+            "request": "launch",
+            "mainClass": "디데이.Ex07최종7번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex12최종12번",
+            "request": "launch",
+            "mainClass": "디데이.Ex12최종12번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex14최종14번",
+            "request": "launch",
+            "mainClass": "디데이.Ex14최종14번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex17최종17번",
+            "request": "launch",
+            "mainClass": "디데이.Ex17최종17번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex18최종18번",
+            "request": "launch",
+            "mainClass": "디데이.Ex18최종18번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex19최종19번",
+            "request": "launch",
+            "mainClass": "디데이.Ex19최종19번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex23최종23번",
+            "request": "launch",
+            "mainClass": "디데이.Ex23최종23번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex26최종26번",
+            "request": "launch",
+            "mainClass": "디데이.Ex26최종26번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex31최종31번",
+            "request": "launch",
+            "mainClass": "디데이.Ex31최종31번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex최종보너스2번",
+            "request": "launch",
+            "mainClass": "디데이.Ex최종보너스2번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex최종보너스3번",
+            "request": "launch",
+            "mainClass": "디데이.Ex최종보너스3번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex최종보너스4번",
+            "request": "launch",
+            "mainClass": "디데이.Ex최종보너스4번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex최종보너스6번",
+            "request": "launch",
+            "mainClass": "디데이.Ex최종보너스6번",
+            "projectName": "EX07 JavaFestival"
+        },
+        {
+            "type": "java",
+            "name": "Ex01메서드기초",
+            "request": "launch",
+            "mainClass": "메서드기초.Ex01메서드기초",
+            "projectName": "EX08메서드"
+        },
+        {
+            "type": "java",
+            "name": "Ex02메서드예제",
+            "request": "launch",
+            "mainClass": "메서드기초.Ex02메서드예제",
+            "projectName": "EX08메서드"
+        },
+        {
+            "type": "java",
+            "name": "Ex03계산기",
+            "request": "launch",
+            "mainClass": "메서드기초.Ex03계산기",
+            "projectName": "EX08메서드"
+        },
+        {
+            "type": "java",
+            "name": "Ex04완전수구하기",
+            "request": "launch",
+            "mainClass": "메서드기초.Ex04완전수구하기",
+            "projectName": "EX08메서드"
+        },
+        {
+            "type": "java",
+            "name": "Ex05method오버로딩",
+            "request": "launch",
+            "mainClass": "메서드기초.Ex05method오버로딩",
+            "projectName": "EX08메서드"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "student실습.Main",
+            "projectName": "EX10ArrayList"
+        },
+        {
+            "type": "java",
+            "name": "StudentMain",
+            "request": "launch",
+            "mainClass": "student실습.StudentMain",
+            "projectName": "EX10ArrayList"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "OOP기초.Main",
+            "projectName": "Ex09OOP"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Pokemon.Main",
+            "projectName": "Ex09OOP"
+        },
+        {
+            "type": "java",
+            "name": "Pokemon객체배열",
+            "request": "launch",
+            "mainClass": "Pokemon.Pokemon객체배열",
+            "projectName": "Ex09OOP"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "Puppy.Main",
+            "projectName": "Ex09OOP"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "실습.Main",
+            "projectName": "Ex09OOP"
+        },
+        {
+            "type": "java",
+            "name": "BankBookMain",
+            "request": "launch",
+            "mainClass": "통장관리프로그램.BankBookMain",
+            "projectName": "Ex09OOP"
+        },
+        {
+            "type": "java",
+            "name": "StudentMain(1)",
+            "request": "launch",
+            "mainClass": "학생정보관리프로그램.StudentMain",
+            "projectName": "Ex09OOP"
+        },
+        {
+            "type": "java",
+            "name": "MusicMain",
+            "request": "launch",
+            "mainClass": "뮤직플레이어실습1.MusicMain",
+            "projectName": "MusicPlayer"
+        }
+    ]
+}

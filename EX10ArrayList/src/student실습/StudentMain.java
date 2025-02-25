@@ -19,7 +19,7 @@ public class StudentMain {
 		// - 생성한 객체를 ArrayList의 데이터로 추가!
 		sList.add(s1);
 
-		sList.add(new student("선영표", 30));
+		sList.add(new student("선영표", 20));
 		System.out.println(sList.get(0));
 		System.out.println(sList.get(0).getName() + sList.get(0).getAge());
 		System.out.println(sList.get(1).getName() + sList.get(1).getAge());
