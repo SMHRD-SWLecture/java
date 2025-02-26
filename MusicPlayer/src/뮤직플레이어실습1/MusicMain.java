@@ -66,25 +66,52 @@ public class MusicMain {
 			switch(num) {
 				case 1 :
 					System.out.println("===== 노래 재생 =====");
+					if(mp3.isPlaying()) {
+						mp3.stop();
+					}
+
 					mp3.play(musicList.get(i).getPath());
 					System.out.println("노래 제목 \t 가수");
 					System.out.println(musicList.get(i).getTitle() + "\t" + musicList.get(i).getSinger());
 					break;
+
+
 				case 2 :
 					System.out.println("===== 다음 곡 재생 =====");
-					if(i > 4) {
-						System.out.println("다음 곡이 없습니다.");
-						if(mp3.isPlaying()) {
-							mp3.stop();
-						}
+					if(mp3.isPlaying()) {
+						mp3.stop();
 					}
-					mp3.play(musicList.get(++i).getPath());
-					System.out.println("노래 제목" + "\t" + "가수");
-					System.out.println(musicList.get(i).getTitle() + "\t" + musicList.get(i).getSinger());
+
+					if(i < musicList.size() - 1) {
+						i++;
+						mp3.play(musicList.get(i).getPath());
+						System.out.println("노래 제목" + "\t" + "가수");
+						System.out.println(musicList.get(i).getTitle() + "\t" + musicList.get(i).getSinger());
+					}
+					else {
+						System.out.println("다음 곡이 없습니다.");
+					}
 					break;
+
+				
 				case 3 :
-					mp3.play(musicList.get(2).getPath());
+					System.out.println("===== 이전 곡 재생 =====");
+					if(mp3.isPlaying()) {
+						mp3.stop();
+					}
+
+					if(i > 0) {
+						i--;
+						mp3.play(musicList.get(i).getPath());
+						System.out.println("노래 제목" + "\t" + "가수");
+						System.out.println(musicList.get(i).getTitle() + "\t" + musicList.get(i).getSinger());
+					}
+					else {
+						System.out.println("이전 곡이 없습니다.");
+					}
 					break;
+
+					
 				case 4 :
 					System.out.println("===== 정지 =====");
 					if(mp3.isPlaying()) {
