@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "월급계산프로그램.Main",
+            "projectName": "EX12추상클래스_인터페이스"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "닌텐도게임기.Main",
             "projectName": "EX11상속"
         },
