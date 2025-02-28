@@ -12,12 +12,14 @@ public class Ex01JOIN {
 		// JDBC 인터페이스 사용 방법
 
 		// 사용자에게 데이터를 입력 받아 회원가입 실행
+		Scanner sc = new Scanner(System.in);
 
+		
 		// 자원을 반납하기 위해서 try문 바깥쪽에 선언!
 		PreparedStatement psmt = null;
 		Connection conn = null;
 
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("ID 입력 : ");
 		String id = sc.next();
 		System.out.print("PW 입력 : ");

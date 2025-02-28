@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MemberSystemMain",
+            "request": "launch",
+            "mainClass": "JDBC응용.MemberSystemMain",
+            "projectName": "EX13JDBC"
+        },
+        {
+            "type": "java",
             "name": "Ex03Update",
             "request": "launch",
             "mainClass": "JDBC기초.Ex03Update",

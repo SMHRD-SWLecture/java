@@ -14,12 +14,13 @@ public class Ex02Login {
 		// Login 실습
 		// JDBC 연결 순서
 
+		Scanner sc = new Scanner(System.in);
 		// 1. 드라이버 로딩
 		Connection conn = null;
 		PreparedStatement psmt = null;
 		ResultSet rs = null;
 
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("ID 입력 : ");
 		String id = sc.next();
 		System.out.print("PW 입력 : ");
