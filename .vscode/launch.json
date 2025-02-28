@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex03Update",
+            "request": "launch",
+            "mainClass": "JDBC기초.Ex03Update",
+            "projectName": "EX13JDBC"
+        },
+        {
+            "type": "java",
+            "name": "Ex02Login",
+            "request": "launch",
+            "mainClass": "JDBC기초.Ex02Login",
+            "projectName": "EX13JDBC"
+        },
+        {
+            "type": "java",
+            "name": "Ex01JOIN",
+            "request": "launch",
+            "mainClass": "JDBC기초.Ex01JOIN",
+            "projectName": "EX13JDBC"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "월급계산프로그램.Main",
