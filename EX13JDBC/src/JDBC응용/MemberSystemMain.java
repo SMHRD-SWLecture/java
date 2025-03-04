@@ -1,9 +1,6 @@
 package JDBC응용;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MemberSystemMain {
@@ -81,9 +78,6 @@ public class MemberSystemMain {
 				case 3:
 					System.out.println("===== 회원정보수정 =====");
 
-					Connection conn = null;
-					PreparedStatement psmt = null;
-
 					System.out.print("ID 입력 : ");
 					id = sc.next();
 					System.out.print("PW 입력 : ");
@@ -95,53 +89,54 @@ public class MemberSystemMain {
 					int uAge = sc.nextInt();
 					System.out.print("수정할 점수 입력 : ");
 					int uScore = sc.nextInt();
+
+					row = dao.update(new CloudMemberDTO(id, pw, uName, uAge, uScore));
 					
-					try {
-						Class.forName("oracle.jdbc.driver.OracleDriver");
-						String url = "jdbc:oracle:thin:@project-db-campus.smhrd.com:1524:xe";
-						String user = "smhrd_kyb";
-						String password = "smhrd1";
-						
-						conn = DriverManager.getConnection(url, user, password);
-
-						String sql = "UPDATE CLOUDMEMBER SET NAME = ?, AGE = ?, SCORE = ? WHERE ID = ? AND PW = ?";
-
-						psmt = conn.prepareStatement(sql);
-						psmt.setString(1, uName);
-						psmt.setInt(2, uAge);
-						psmt.setInt(3, uScore);
-						psmt.setString(4, id);
-						psmt.setString(5, pw);
-
-						row = psmt.executeUpdate();
-						if(row > 0)
-							System.out.println("수정 성공!");
-						else
-							System.out.println("수정 실패...");
-					} catch (Exception e) {
-						e.printStackTrace();
+					if(row > 0) {
+						System.out.println("수정 성공!");
 					}
-					
-					finally {
-						try {
-							if(psmt != null)
-								psmt.close();
-							if(conn != null)
-								conn.close();
-							
-						} catch (SQLException e) {
-							System.out.println("자원 반납 시 문제 발생");
-						}
+					else {
+						System.out.println("수정 실패...");
 					}
 					break;
 
 
 				case 4:
 					System.out.println("===== 회원탈퇴 =====");
+					// ID와 PW를 입력받아 MemberDAO의 delete Method 활용
+					// MemberDAO의 return값은 int형 row!!
+
+					System.out.print("ID 입력 : ");
+					id = sc.next();
+					System.out.print("PW 입력 : ");
+					pw = sc.next();
+
+					row = dao.delete(new CloudMemberDTO(id, pw, null, 0, 0));
+
+					if(row > 0) {
+						System.out.println("탈퇴 성공!");
+					}
+					else {
+						System.out.println("탈퇴 실패...");
+					}
+
 					break;
+
+
 				case 5:
 					System.out.println("===== 전체회원조회 =====");
+					System.out.println("ID \t PW \t NAME \t AGE \t SCORE");
+
+					// DAO의 selectAll Method 활용
+					// Return Type은 ??
+					ArrayList<CloudMemberDTO> list = dao.selectAll();
+					for(CloudMemberDTO member : list) {
+						System.out.println(member.getId() + "\t" + member.getPw() + "\t" + member.getName() + "\t" + member.getAge() + "\t" + member.getScore());
+					}
+					
 					break;
+
+
 				case 6:
 					System.out.println("프로그램을 종료합니다");
 					b = false;
