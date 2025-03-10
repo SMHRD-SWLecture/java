@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Q6_2.Main",
+            "projectName": "FinalTest"
+        },
+        {
+            "type": "java",
+            "name": "Question",
+            "request": "launch",
+            "mainClass": "Q5.Question",
+            "projectName": "FinalTest"
+        },
+        {
+            "type": "java",
             "name": "MemberSystemMain",
             "request": "launch",
             "mainClass": "JDBC응용.MemberSystemMain",
